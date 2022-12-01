@@ -1,0 +1,19 @@
+{
+    "name": "vladislav/web",
+    "type": "library",
+    "minimum-stability": "dev",
+    "repositories":[
+        {
+            "type": "git-bitbucket",
+            "url": "https://bitbucket.org/santorcism/web2"
+        }
+    ],
+    "require":{
+        "vladislav/kistrin": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "vladislav\\Web\\": "src/"
+        }
+    }
+}
